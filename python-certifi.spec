@@ -33,3 +33,10 @@ PYTHONDONTWRITEBYTECODE= %__python setup.py install --root=%{buildroot}
 %defattr(-,root,root)
 %doc LICENSE README.rst
 %py_sitedir/certifi*
+
+
+%changelog
+* Wed Apr 25 2012 Lev Givon <lev@mandriva.org> 0.0.8-1
++ Revision: 793430
+- imported package python-certifi
+
