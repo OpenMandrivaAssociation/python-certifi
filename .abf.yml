@@ -1,2 +1,4 @@
+removed_sources:
+  certifi-0.0.8.tar.gz: 57e14e28e30283f8b881b09b1402fec79e3fe692
 sources:
-  "certifi-0.0.8.tar.gz": 57e14e28e30283f8b881b09b1402fec79e3fe692
+  certifi-1.0.1.tar.gz: 98bcca5a8b001228e8794ad3f2d4e0d9df252e44
