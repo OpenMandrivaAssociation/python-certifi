@@ -12,6 +12,7 @@ Group:		Development/Python
 Url:		http://python-requests.org/
 BuildArch:	noarch
 BuildRequires:	pkgconfig(python3)
+BuildRequires:	python-setuptools
 
 %description
 This package may or may not become a dependency of Requests. Mozilla's
