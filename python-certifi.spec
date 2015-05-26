@@ -5,13 +5,13 @@ Summary:	Mozilla's SSL Certs
 
 Name:		python-%{module}
 Version:	14.05.14
-Release:	2
+Release:	3
 Source0:	http://pypi.python.org/packages/source/c/certifi/certifi-%{version}.tar.gz
 License:	ISC
 Group:		Development/Python
 Url:		http://python-requests.org/
 BuildArch:	noarch
-BuildRequires:	python-devel
+BuildRequires:	pkgconfig(python3)
 
 %description
 This package may or may not become a dependency of Requests. Mozilla's
@@ -28,7 +28,3 @@ PYTHONDONTWRITEBYTECODE= %__python setup.py install --root=%{buildroot}
 %files
 %doc LICENSE README.rst
 %{py_puresitedir}/certifi*
-
-
-
-
