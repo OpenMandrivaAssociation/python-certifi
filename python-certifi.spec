@@ -3,7 +3,7 @@
 Summary:	Mozilla's SSL Certs
 Name:		python-%{module}
 Version:	2018.01.18
-Release:	1
+Release:	2
 Source0:	https://github.com/certifi/python-certifi/archive/%{version}.tar.gz
 License:	ISC
 Group:		Development/Python
