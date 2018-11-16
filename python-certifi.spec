@@ -11,6 +11,8 @@ Url:		https://certifi.io/
 BuildArch:	noarch
 BuildRequires:	pkgconfig(python3)
 BuildRequires:	python-setuptools
+BuildRequires:	pkgconfig(python2)
+BuildRequires:	python2-setuptools
 
 %description
 This package may or may not become a dependency of Requests. Mozilla's
