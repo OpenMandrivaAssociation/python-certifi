@@ -2,9 +2,9 @@
 
 Summary:	Mozilla's SSL Certs
 Name:		python-%{module}
-Version:	2018.01.18
-Release:	2
-Source0:	https://github.com/certifi/python-certifi/archive/%{version}.tar.gz
+Version:	2018.11.29
+Release:	1
+Source0:	https://pypi.io/packages/source/c/certifi/certifi-%{version}.tar.gz
 License:	ISC
 Group:		Development/Python
 Url:		https://certifi.io/
@@ -32,10 +32,10 @@ cp -a %{name}-%{version} py2
 
 %install
 cd py2
-PYTHONDONTWRITEBYTECODE=1 %__python2 setup.py install --root=%{buildroot}
+PYTHONDONTWRITEBYTECODE=1 python2 setup.py install --root=%{buildroot}
 
 cd ../%{name}-%{version}
-PYTHONDONTWRITEBYTECODE=1 %__python setup.py install --root=%{buildroot}
+PYTHONDONTWRITEBYTECODE=1 %__%py_install
 
 %files
 %doc %{name}-%{version}/LICENSE %{name}-%{version}/README.rst
