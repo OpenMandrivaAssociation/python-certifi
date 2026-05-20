@@ -2,7 +2,7 @@
 
 Summary:	Mozilla's SSL Certs
 Name:		python-certifi
-Version:	2026.4.22
+Version:	2026.5.20
 Release:	1
 License:	MPL-2.0
 Group:		Development/Python
@@ -11,7 +11,7 @@ Source0:	https://files.pythonhosted.org/packages/source/c/%{module}/%{module}-%{
 
 BuildSystem:	python
 BuildArch:	noarch
-BuildRequires:	pkgconfig(python3)
+BuildRequires:	pkgconfig(python)
 BuildRequires:	python%{pyver}dist(pip)
 BuildRequires:	python%{pyver}dist(setuptools)
 BuildRequires:	python%{pyver}dist(wheel)
