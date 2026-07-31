@@ -2,7 +2,7 @@
 
 Summary:	Mozilla's SSL Certs
 Name:		python-certifi
-Version:	2026.5.20
+Version:	2026.7.22
 Release:	1
 License:	MPL-2.0
 Group:		Development/Python
